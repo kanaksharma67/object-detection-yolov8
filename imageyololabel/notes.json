@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Kanak"
+    },
+    {
+      "id": 1,
+      "name": "ac "
+    },
+    {
+      "id": 2,
+      "name": "adaptor"
+    },
+    {
+      "id": 3,
+      "name": "animal "
+    },
+    {
+      "id": 4,
+      "name": "earbuds"
+    },
+    {
+      "id": 5,
+      "name": "notebook"
+    },
+    {
+      "id": 6,
+      "name": "pen"
+    },
+    {
+      "id": 7,
+      "name": "phone"
+    },
+    {
+      "id": 8,
+      "name": "ruchi"
+    },
+    {
+      "id": 9,
+      "name": "tv "
+    },
+    {
+      "id": 10,
+      "name": "unknoen person "
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

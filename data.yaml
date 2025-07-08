@@ -1,0 +1,5 @@
+train: imageyololabel/images/train
+val: imageyololabel/images/val  # or separate validation folder
+nc: 11 # Number of classes (change this!)
+names: ['Kanak','ac' ,'adaptor','animal' ,'earbuds','notebook','pen','phone',.ruchi','tv ','unknoen person ']  # Your class names
+
