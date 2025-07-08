@@ -1,16 +1,28 @@
-# YOLOv8 Object Detection Project
+# 🚀 YOLOv8 Object Detection Project
 
-This repository contains code for training and running YOLOv8 object detection models on custom datasets.
+This repository contains a simple and clear implementation of training and using the YOLOv8 model (from the [Ultralytics](https://github.com/ultralytics/ultralytics) library) for object detection tasks using custom datasets.
 
-## 🚀 Quick Start
+---
 
-### Prerequisites
-- Python 3.8+
+### ✅ Prerequisites
+
+- Python 3.10+
 - Git
 - NVIDIA GPU (recommended) with CUDA installed
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/object-yolov8-detection.git
-   cd object-yolov8-detection
+---
+
+## 📂 Project Structure
+
+```plaintext
+.
+├── data.yaml                 # Dataset configuration file
+├── test_image.jpg           # Image you want to test
+├── detect.py                # Script for inference using trained model
+├── train.py                 # Script to start training
+├── runs/                    # YOLO's default output folder
+│   └── detect/
+│       └── train/           # Contains weights and logs after training
+│           └── weights/
+│               └── best.pt  # Your trained model weights
+└── README.md                # This file
